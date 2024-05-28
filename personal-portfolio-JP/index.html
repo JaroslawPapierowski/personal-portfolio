@@ -8,8 +8,8 @@
     <script src="app.js"></script> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +19,145 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,400..700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
         <header>
             <div class="container-category">
                 <div class="category">
-                    <div class="About">About</div>
-                    <div class="Work">Work</div>
-                    <div class="Content">Content</div>
+                    <a href="#welcome-section-id" class="About">About</a>
+                    <a href="#projects-id" class="Work">Work</a>
+                    <a href="#contact-section-id" class="Contact">Contact</a>
                 </div>
             </div>
         </header>
 
         <main>
-            <div class="welcome-section">
+            <div class="welcome-section" id="welcome-section-id">
                 <a class="welcome-one">Witaj, jestem Jarosław</a>
                 <p class="welcome-two">jestem Web Developer'em</p>
             </div>
         </main>
+
+        <section>
+            <div class="projects-section" id="projects-id">
+                <a class="projects-section-header">Oto niektóre z moich projektów</a>
+            
+                <div class="my-projects">
+                    <a href="https://github.com/JaroslawPapierowski/Credit-Card">
+                        <div class="my-projects-one">
+                            <img src="karta-projekt.png" alt="karta-projekt" class="card-photo">
+                            <a class="my-projects-name">
+                                <span class="code"><</span>
+                                    Credit Card
+                                <span class="code">/></span>
+                            </a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/JaroslawPapierowski/Meteoradar">
+                        <div class="my-projects-two">
+                            <img src="pogoda-projekt.png" alt="pogoda-projekt" class="weather-photo">
+                            <a class="my-projects-name">
+                                <span class="code"><</span>
+                                    Meteoradar
+                                <span class="code">/></span>
+                            </a>
+                        </div>
+                    </a>
+                    <a href="https://github.com/JaroslawPapierowski/Polish-Game">
+                        <div class="my-projects-three">
+                            <img src="mapa-projekt.png" alt="mapa-projekt" class="map-photo">
+                            <a class="my-projects-name">
+                                <span class="code"><</span>
+                                    Polish Game
+                                <span class="code">/></span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="my-projects">
+                    <a href="https://github.com/JaroslawPapierowski/League-of-Legends-champions">
+                        <div class="my-projects-four">
+                            <img src="lol-projekt.png" alt="lol-projekt" class="lol-photo">
+                            <a class="my-projects-name">
+                                <span class="code"><</span>
+                                    League of Legends champions
+                                <span class="code">/></span>
+                            </a>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/JaroslawPapierowski/MNC-News">
+                        <div class="my-projects-five">
+                            <img src="news-projekt-2.png" alt="news-projekt" class="news-photo">
+                            <a class="my-projects-name">
+                                <span class="code"><</span>
+                                    MNC News
+                                <span class="code">/></span>
+                            </a>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="contact-section" id="contact-section-id">
+                    <a class="contact-one">Jeżeli jesteś zainteresowany współpracą</a>
+                    <a class="contact-two">skontaktuj się ze mną!</a>
+
+                    <div class="contact-method">
+                            <div class="Facebook">
+                                <a target="_blank" id="app" href="https://www.facebook.com/profile.php?id=100024723744486" style="--color: #4267B2">
+                                    <i class="fa fa-facebook-f"></i>
+                                </a> 
+                            </div>
+
+                            <div class="Github">
+                                <a target="_blank" id="app" href="https://github.com/JaroslawPapierowski/personal-portfolio" style="--color: #000">
+                                    <i class="fa fa-github"></i>
+                                </a> 
+                            </div>
+
+                            <div class="Twitter">
+                                <a target="_blank" id="app" href="https://x.com/NBA" style="--color: #189cf4">
+                                    <i class="fa fa-twitter"></i>
+                                </a> 
+                            </div>
+                                
+                            <div class="Email">
+                                <a target="_blank" id="app" href="mailto:jaroslaw.papierowski@live.zs1mm.edu.pl" style="--color: #776E90">
+                                    <i class="material-icons" style="font-size:36px">mail</i>
+                                </a> 
+                            </div>
+
+                            <div class="Phone">
+                                <a target="_blank" id="app" href="tel:555-555-555" style="--color: #109444">
+                                    <i class="fa fa-phone"></i>
+                                </a> 
+                            </div>
+                    </div>
+            </div>
+        </section>
+
+        <footer>
+                        
+        </footer>
     </div>
+    
+    
 </body>
 </html>
